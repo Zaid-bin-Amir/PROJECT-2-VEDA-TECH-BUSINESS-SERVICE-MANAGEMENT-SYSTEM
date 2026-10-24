@@ -1,0 +1,6 @@
+SERVICE_STATUSES = ("Active", "Inactive")
+PROGRAM_TYPES = ("Training", "Internship")
+PROGRAM_STATUSES = ("Open", "Closed", "Upcoming")
+INQUIRY_TYPES = ("Service", "Program")
+INQUIRY_STATUSES = ("Open", "In Progress", "Closed")
+COLLECTIONS = ("services", "programs", "customers", "inquiries")

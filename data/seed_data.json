@@ -1,0 +1,35 @@
+{
+  "services": [
+    {"id": "S001", "name": "Website Development", "category": "Development", "price": 800, "status": "Active"},
+    {"id": "S002", "name": "Mobile App Development", "category": "Development", "price": 1500, "status": "Active"},
+    {"id": "S003", "name": "SEO Optimization", "category": "Digital Marketing", "price": 300, "status": "Active"},
+    {"id": "S004", "name": "Social Media Management", "category": "Digital Marketing", "price": 250, "status": "Active"},
+    {"id": "S005", "name": "Cloud Hosting Setup", "category": "Infrastructure", "price": 400, "status": "Active"},
+    {"id": "S006", "name": "UI/UX Design", "category": "Design", "price": 500, "status": "Inactive"}
+  ],
+  "programs": [
+    {"id": "P001", "title": "Python Fundamentals", "type": "Training", "duration_weeks": 6, "seats": 30, "status": "Open"},
+    {"id": "P002", "title": "Web Development Bootcamp", "type": "Training", "duration_weeks": 12, "seats": 25, "status": "Open"},
+    {"id": "P003", "title": "Digital Marketing Basics", "type": "Training", "duration_weeks": 4, "seats": 40, "status": "Closed"},
+    {"id": "P004", "title": "Software Engineering Internship", "type": "Internship", "duration_weeks": 8, "seats": 10, "status": "Open"},
+    {"id": "P005", "title": "Graphic Design Internship", "type": "Internship", "duration_weeks": 6, "seats": 8, "status": "Upcoming"}
+  ],
+  "customers": [
+    {"id": "C001", "name": "Ali Raza", "email": "ali.raza@example.com", "phone": "0300-1111111"},
+    {"id": "C002", "name": "Sara Khan", "email": "sara.khan@example.com", "phone": "0301-2222222"},
+    {"id": "C003", "name": "Usman Tariq", "email": "usman.tariq@example.com", "phone": "0302-3333333"},
+    {"id": "C004", "name": "Ayesha Malik", "email": "ayesha.malik@example.com", "phone": "0303-4444444"},
+    {"id": "C005", "name": "Hamza Sheikh", "email": "hamza.sheikh@example.com", "phone": "0304-5555555"},
+    {"id": "C006", "name": "Fatima Noor", "email": "fatima.noor@example.com", "phone": "0305-6666666"}
+  ],
+  "inquiries": [
+    {"id": "Q001", "customer_id": "C001", "type": "Service", "ref_id": "S001", "message": "Need a company website with 5 pages.", "status": "Open", "date": "2026-10-01"},
+    {"id": "Q002", "customer_id": "C002", "type": "Program", "ref_id": "P001", "message": "Is there a fee for Python Fundamentals?", "status": "In Progress", "date": "2026-10-03"},
+    {"id": "Q003", "customer_id": "C003", "type": "Service", "ref_id": "S003", "message": "Can you improve my site ranking on Google?", "status": "Closed", "date": "2026-10-05"},
+    {"id": "Q004", "customer_id": "C004", "type": "Program", "ref_id": "P004", "message": "How can I apply for the internship?", "status": "Open", "date": "2026-10-08"},
+    {"id": "Q005", "customer_id": "C005", "type": "Service", "ref_id": "S002", "message": "Quote for an e-commerce mobile app.", "status": "In Progress", "date": "2026-10-10"},
+    {"id": "Q006", "customer_id": "C006", "type": "Service", "ref_id": "S005", "message": "Need help migrating to cloud hosting.", "status": "Open", "date": "2026-10-12"},
+    {"id": "Q007", "customer_id": "C001", "type": "Program", "ref_id": "P002", "message": "When does the next bootcamp batch start?", "status": "Closed", "date": "2026-10-15"},
+    {"id": "Q008", "customer_id": "C002", "type": "Service", "ref_id": "S004", "message": "Monthly social media plan details?", "status": "Open", "date": "2026-10-18"}
+  ]
+}
